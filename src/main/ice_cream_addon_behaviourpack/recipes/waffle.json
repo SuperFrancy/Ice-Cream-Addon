@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "ice_cream_addon:waffle"
+    },
+    "groups": [
+      "ice_cream_addon"
+    ],
+    "tags": [
+      "furnace"
+    ],
+    "input": {
+      "item": "ice_cream_addon:dough"
+    },
+    "output": {
+      "item": "ice_cream_addon:waffle"
+    }
+  }
+}

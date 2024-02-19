@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ice_cream_addon:cone"
+    },
+    "groups": [
+      "ice_cream_addon"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "a a",
+      "a a",
+      " a "
+    ],
+    "key": {
+      "a": {
+        "item": "ice_cream_addon:waffle"
+      }
+    },
+    "result": {
+      "item": "ice_cream_addon:cone",
+      "count": 1
+    }
+  }
+}

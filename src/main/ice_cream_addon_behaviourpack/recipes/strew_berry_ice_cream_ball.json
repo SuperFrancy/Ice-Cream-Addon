@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ice_cream_addon:strew_berry_ice_cream_ball"
+    },
+    "groups": [
+      "ice_cream_addon"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ab",
+      "c "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:milk_bucket"
+      },
+      "b": {
+        "item": "minecraft:sweet_berries"
+      },
+      "c": {
+        "item": "minecraft:powder_snow_bucket"
+      }
+    },
+    "result": {
+      "item": "ice_cream_addon:strew_berry_ice_cream_ball",
+      "count": 1
+    }
+  }
+}

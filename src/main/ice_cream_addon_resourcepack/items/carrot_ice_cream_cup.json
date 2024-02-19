@@ -1,0 +1,16 @@
+{
+  "format_version": "1.12",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ice_cream_addon:carrot_ice_cream_cup",
+      "category": "Items",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:icon": "carrot_ice_cream_cup",
+      "minecraft:render_offsets": "apple",
+      "minecraft:use_animation": "eat",
+      "minecraft:creative_category": "Items"
+    }
+  }
+}

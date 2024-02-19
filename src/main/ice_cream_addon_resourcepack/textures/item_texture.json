@@ -1,0 +1,99 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "chocolate_ice_cream": {
+      "textures": "textures/items/chocolate_ice_cream"
+    },
+    "apple_ice_cream": {
+      "textures": "textures/items/apple_ice_cream"
+    },
+    "beetroot_ice_cream_cup": {
+      "textures": "textures/items/beetroot_ice_cream_cup"
+    },
+    "melon_ice_cream": {
+      "textures": "textures/items/melon_ice_cream"
+    },
+    "carrot_ice_cream": {
+      "textures": "textures/items/carrot_ice_cream"
+    },
+    "melon_ice_cream_cup": {
+      "textures": "textures/items/melon_ice_cream_cup"
+    },
+    "melon_popsicle": {
+      "textures": "textures/items/melon_popsicle"
+    },
+    "vanilla_ice_cream_ball": {
+      "textures": "textures/items/vanilla_ice_cream_ball"
+    },
+    "cone": {
+      "textures": "textures/items/cone"
+    },
+    "vanilla_popsicle": {
+      "textures": "textures/items/vanilla_popsicle"
+    },
+    "apple_ice_cream_ball": {
+      "textures": "textures/items/apple_ice_cream_ball"
+    },
+    "waffle": {
+      "textures": "textures/items/waffle"
+    },
+    "strew_berry_ice_cream": {
+      "textures": "textures/items/sweet_berry_ice_cream"
+    },
+    "dough": {
+      "textures": "textures/items/dough"
+    },
+    "carrot_ice_cream_ball": {
+      "textures": "textures/items/carrot_ice_cream_ball"
+    },
+    "apple_ice_cream_cup": {
+      "textures": "textures/items/apple_ice_cream_cup"
+    },
+    "chocolate_i_ce_cream_cup": {
+      "textures": "textures/items/chocolate_ice_cream_cup"
+    },
+    "chocolate_ice_cream_ball": {
+      "textures": "textures/items/chocolate_ice_cream_ball"
+    },
+    "apple_popsicle": {
+      "textures": "textures/items/apple_popsicle"
+    },
+    "beetroot_ice_cream": {
+      "textures": "textures/items/beetroot_ice_cream"
+    },
+    "beetroot_ice_cream_ball": {
+      "textures": "textures/items/beetroot_ice_cream_ball"
+    },
+    "beetroot_popsicle": {
+      "textures": "textures/items/beetroot_popsicle"
+    },
+    "strew_berry_ice_cream_cup": {
+      "textures": "textures/items/sweet_berry_ice_cream_cup"
+    },
+    "vanilla_ice_cream": {
+      "textures": "textures/items/vanilla_ice_cream"
+    },
+    "carrot_popsicle": {
+      "textures": "textures/items/carrot_popsicle"
+    },
+    "strew_berry_ice_cream_ball": {
+      "textures": "textures/items/sweet_berry_ice_cream_ball"
+    },
+    "chocolate_popsicle": {
+      "textures": "textures/items/chocolate_popsicle"
+    },
+    "strew_berry_popsicle": {
+      "textures": "textures/items/sweet_berry_popsicle"
+    },
+    "carrot_ice_cream_cup": {
+      "textures": "textures/items/carrot_ice_cream_cup"
+    },
+    "vanilla_ice_cream_cup": {
+      "textures": "textures/items/vanilla_ice_cream_cup"
+    },
+    "melon_ice_cream_ball": {
+      "textures": "textures/items/melon_ice_cream_ball"
+    }
+  }
+}

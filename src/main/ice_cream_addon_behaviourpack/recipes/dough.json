@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "ice_cream_addon:dough"
+    },
+    "groups": [
+      "ice_cream_addon"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:wheat"
+      },
+      {
+        "item": "minecraft:water_bucket"
+      }
+    ],
+    "result": {
+      "item": "ice_cream_addon:dough",
+      "count": 1
+    }
+  }
+}

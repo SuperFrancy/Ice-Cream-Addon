@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ice_cream_addon:vanilla_popsicle"
+    },
+    "groups": [
+      "ice_cream_addon"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "a",
+      "b",
+      "c"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:red_flower",
+        "data": 8
+      },
+      "b": {
+        "item": "minecraft:ice"
+      },
+      "c": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "ice_cream_addon:vanilla_popsicle",
+      "count": 1
+    }
+  }
+}

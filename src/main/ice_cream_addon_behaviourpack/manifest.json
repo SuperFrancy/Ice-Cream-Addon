@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "",
+    "name": "Ice Cream Addon",
+    "uuid": "7bdf2dd9-8450-3616-aa07-279a83ad019b",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      30
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "data",
+      "uuid": "dc5b6f46-f1d1-3369-bfd3-063d27f7f423",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "1088fe1a-5c3b-35e8-813b-f52c2be8b990",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Francesco, MCreator"
+    ],
+    "url": "https://mcreator.net"
+  }
+}

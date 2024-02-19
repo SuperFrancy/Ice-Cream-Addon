@@ -1,0 +1,996 @@
+{
+  "mod_elements": [
+    {
+      "name": "Dough",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/dough.json",
+          "src/main/ice_cream_addon_behaviourpack/items/dough.json"
+        ]
+      }
+    },
+    {
+      "name": "DoughR",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/dough.json"
+        ]
+      }
+    },
+    {
+      "name": "Waffle",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waffle",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/waffle.json",
+          "src/main/ice_cream_addon_resourcepack/items/waffle.json"
+        ]
+      }
+    },
+    {
+      "name": "WaffleR",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waffle_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/waffle.json"
+        ]
+      }
+    },
+    {
+      "name": "Cone",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cone",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/cone.json",
+          "src/main/ice_cream_addon_behaviourpack/items/cone.json"
+        ]
+      }
+    },
+    {
+      "name": "ConeR",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cone_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/cone.json"
+        ]
+      }
+    },
+    {
+      "name": "VanillaIceCreamBall",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_ice_cream_ball",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/vanilla_ice_cream_ball.json",
+          "src/main/ice_cream_addon_behaviourpack/items/vanilla_ice_cream_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "VanillaIceCreamBallR",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_ice_cream_ball_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/vanilla_ice_cream_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "VanillaIceCream",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_ice_cream",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/vanilla_ice_cream.json",
+          "src/main/ice_cream_addon_behaviourpack/items/vanilla_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "VanillaIceCreamR",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_ice_cream_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/vanilla_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "VanillaIceCreamCup",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_ice_cream_cup",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/vanilla_ice_cream_cup.json",
+          "src/main/ice_cream_addon_resourcepack/items/vanilla_ice_cream_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "VanillaIceCreamCupR",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_ice_cream_cup_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/vanilla_ice_cream_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "VanillaPopsicle",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_popsicle",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/vanilla_popsicle.json",
+          "src/main/ice_cream_addon_resourcepack/items/vanilla_popsicle.json"
+        ]
+      }
+    },
+    {
+      "name": "VanillaPopsicleR",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_popsicle_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/vanilla_popsicle.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateIceCreamBall",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_ice_cream_ball",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/chocolate_ice_cream_ball.json",
+          "src/main/ice_cream_addon_resourcepack/items/chocolate_ice_cream_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateIceCreamBallR",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_ice_cream_ball_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/chocolate_ice_cream_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateIceCream",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_ice_cream",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/chocolate_ice_cream.json",
+          "src/main/ice_cream_addon_resourcepack/items/chocolate_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateIceCreamR",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_ice_cream_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/chocolate_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateICeCreamCup",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_i_ce_cream_cup",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/chocolate_i_ce_cream_cup.json",
+          "src/main/ice_cream_addon_behaviourpack/items/chocolate_i_ce_cream_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateIceCreamCupR",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_ice_cream_cup_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/chocolate_ice_cream_cup_r.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolatePopsicle",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_popsicle",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/chocolate_popsicle.json",
+          "src/main/ice_cream_addon_resourcepack/items/chocolate_popsicle.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolatePosicleR",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_posicle_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/chocolate_posicle.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleIceCreamBall",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_ice_cream_ball",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/apple_ice_cream_ball.json",
+          "src/main/ice_cream_addon_resourcepack/items/apple_ice_cream_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleIceCreamBallR",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_ice_cream_ball_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/apple_ice_cream_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleIceCream",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_ice_cream",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/apple_ice_cream.json",
+          "src/main/ice_cream_addon_behaviourpack/items/apple_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleIceCreamR",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_ice_cream_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/apple_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleIceCreamCup",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_ice_cream_cup",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/apple_ice_cream_cup.json",
+          "src/main/ice_cream_addon_behaviourpack/items/apple_ice_cream_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleIceCreamCupR",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_ice_cream_cup_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/apple_ice_cream_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "ApplePopsicle",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_popsicle",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/apple_popsicle.json",
+          "src/main/ice_cream_addon_behaviourpack/items/apple_popsicle.json"
+        ]
+      }
+    },
+    {
+      "name": "ApplePopsicleR",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_popsicle_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/apple_popsicle.json"
+        ]
+      }
+    },
+    {
+      "name": "CarrotIceCreamBall",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_ice_cream_ball",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/carrot_ice_cream_ball.json",
+          "src/main/ice_cream_addon_resourcepack/items/carrot_ice_cream_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "CarrotIceCreamBallR",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_ice_cream_ball_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/carrot_ice_cream_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "CarrotIceCream",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_ice_cream",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/carrot_ice_cream.json",
+          "src/main/ice_cream_addon_resourcepack/items/carrot_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "CarrotIceCreamR",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_ice_cream_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/carrot_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "CarrotIceCreamCup",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_ice_cream_cup",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/carrot_ice_cream_cup.json",
+          "src/main/ice_cream_addon_behaviourpack/items/carrot_ice_cream_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "CarrotIceCreamCupR",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_ice_cream_cup_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/carrot_ice_cream_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "CarrotPopsicle",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_popsicle",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/carrot_popsicle.json",
+          "src/main/ice_cream_addon_resourcepack/items/carrot_popsicle.json"
+        ]
+      }
+    },
+    {
+      "name": "CarrotPopsicleR",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_popsicle_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/carrot_popsicle.json"
+        ]
+      }
+    },
+    {
+      "name": "BeetrootIceCreamBall",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beetroot_ice_cream_ball",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/beetroot_ice_cream_ball.json",
+          "src/main/ice_cream_addon_behaviourpack/items/beetroot_ice_cream_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "BeetrootIceCreamBallR",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beetroot_ice_cream_ball_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/beetroot_ice_cream_ball_r.json"
+        ]
+      }
+    },
+    {
+      "name": "BeetrootIceCream",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beetroot_ice_cream",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/beetroot_ice_cream.json",
+          "src/main/ice_cream_addon_resourcepack/items/beetroot_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "BeetrootIceCreamR",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beetroot_ice_cream_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/beetroot_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "BeetrootIceCreamCup",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beetroot_ice_cream_cup",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/beetroot_ice_cream_cup.json",
+          "src/main/ice_cream_addon_resourcepack/items/beetroot_ice_cream_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "BeetrootIceCreamCupR",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beetroot_ice_cream_cup_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/beetroot_ice_cream_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "BeetrootPopsicle",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beetroot_popsicle",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/beetroot_popsicle.json",
+          "src/main/ice_cream_addon_behaviourpack/items/beetroot_popsicle.json"
+        ]
+      }
+    },
+    {
+      "name": "BeetrootPopsicleR",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beetroot_popsicle_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/beetroot_popsicle.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonIceCreamBall",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_ice_cream_ball",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/melon_ice_cream_ball.json",
+          "src/main/ice_cream_addon_resourcepack/items/melon_ice_cream_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonIceCreamBallR",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_ice_cream_ball_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/melon_ice_cream_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonIceCream",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_ice_cream",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/melon_ice_cream.json",
+          "src/main/ice_cream_addon_behaviourpack/items/melon_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonIceCreamR",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_ice_cream_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/melon_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonIceCreamCup",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_ice_cream_cup",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/melon_ice_cream_cup.json",
+          "src/main/ice_cream_addon_resourcepack/items/melon_ice_cream_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonIceCreamCupR",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_ice_cream_cup_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/melon_ice_cream_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonPopsicle",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_popsicle",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/melon_popsicle.json",
+          "src/main/ice_cream_addon_behaviourpack/items/melon_popsicle.json"
+        ]
+      }
+    },
+    {
+      "name": "MelonPopsicleR",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_popsicle_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/melon_popsicle.json"
+        ]
+      }
+    },
+    {
+      "name": "StrewBerryIceCreamBall",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strew_berry_ice_cream_ball",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/strew_berry_ice_cream_ball.json",
+          "src/main/ice_cream_addon_resourcepack/items/strew_berry_ice_cream_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "StrewBerryIceCreamBallR",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strew_berry_ice_cream_ball_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/strew_berry_ice_cream_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "StrewBerryIceCream",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strew_berry_ice_cream",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/items/strew_berry_ice_cream.json",
+          "src/main/ice_cream_addon_resourcepack/items/strew_berry_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "StrewBerryIceCreamR",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strew_berry_ice_cream_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/strew_berry_ice_cream.json"
+        ]
+      }
+    },
+    {
+      "name": "StrewBerryIceCreamCup",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strew_berry_ice_cream_cup",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/strew_berry_ice_cream_cup.json",
+          "src/main/ice_cream_addon_behaviourpack/items/strew_berry_ice_cream_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "StrewBerryIceCreamCupR",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strew_berry_ice_cream_cup_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/strew_berry_ice_cream_cup.json"
+        ]
+      }
+    },
+    {
+      "name": "StrewBerryPopsicle",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strew_berry_popsicle",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_resourcepack/items/strew_berry_popsicle.json",
+          "src/main/ice_cream_addon_behaviourpack/items/strew_berry_popsicle.json"
+        ]
+      }
+    },
+    {
+      "name": "StrewBerryPopsicleR",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strew_berry_popsicle_r",
+      "metadata": {
+        "files": [
+          "src/main/ice_cream_addon_behaviourpack/recipes/strew_berry_popsicle.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "it_it": {
+      "item.ice_cream_addon:melon_ice_cream_cup.name": "Melon Ice Cream Cup",
+      "item.ice_cream_mod_be:melon_popsicle.name": "Ghiacciolo all\u0027Anguria",
+      "item.ice_cream_mod_be:strew_berry_ice_cream_cup.name": "Coppetta alla Bacca Dolce",
+      "item.ice_cream_mod_be:melon_ice_cream.name": "Cono all\u0027Anguria",
+      "item.ice_cream_mod_be:apple_ice_cream.name": "Cono alla Mela",
+      "item.ice_cream_mod_be:strew_berry_ice_cream.name": "Cono alla Bacca Dolce",
+      "item.ice_cream_mod_be:melon_ice_cream_ball": "Gelato all\u0027Anguria",
+      "item.ice_cream_mod_be:beetroot_ice_cream_cup.name": "Coppetta alla Barbabietola",
+      "item.ice_cream_addon:melon_popsicle.name": "Melon Popsicle",
+      "item.ice_cream_addon:strew_berry_ice_cream_ball.name": "Strew Berry Ice Cream Ball",
+      "item.ice_cream_mod_be:beetroot_ice_cream.name": "Cono alla Barbabietola",
+      "item.ice_cream_mod_be:vanilla_popsicle.name": "Ghiacciolo alla Vaniglia",
+      "item.ice_cream_addon:apple_ice_cream.name": "Apple Ice Cream",
+      "item.ice_cream_addon:beetroot_ice_cream_ball.name": "Beetroot Ice Cream Ball",
+      "item.ice_cream_mod_be:carrot_ice_cream_cup.name": "Coppetta alla Carota",
+      "item.ice_cream_mod_be:strew_berry_ice_cream_ball.name": "Gelato alla Bacca Dolce",
+      "item.ice_cream_addon:carrot_ice_cream.name": "Carrot Ice Cream",
+      "item.ice_cream_addon:chocolate_i_ce_cream_cup.name": "Chocolate I Ce Cream Cup",
+      "item.ice_cream_addon:beetroot_ice_cream_cup.name": "Beetroot Ice Cream Cup",
+      "item.ice_cream_mod_be:cone.name": "Cono",
+      "item.ice_cream_mod_be:chocolate_popsicle.name": "Ghiacciolo al Cioccolato",
+      "item.ice_cream_addon:strew_berry_ice_cream_cup.name": "Strew Berry Ice Cream Cup",
+      "item.ice_cream_addon:chocolate_ice_cream.name": "Chocolate Ice Cream",
+      "item.ice_cream_addon:strew_berry_ice_cream.name": "Strew Berry Ice Cream",
+      "item.ice_cream_addon:melon_ice_cream_ball.name": "Melon Ice Cream Ball",
+      "item.ice_cream_mod_be:apple_popsicle.name": "Ghiacciolo alla Mela",
+      "item.ice_cream_addon:apple_popsicle.name": "Apple Popsicle",
+      "item.ice_cream_addon:chocolate_ice_cream_ball.name": "Chocolate Ice Cream Ball",
+      "item.ice_cream_mod_be:strew_berry_popsicle.name": "Ghiacciolo alla Bacca Dolce",
+      "item.ice_cream_addon:dough.name": "Dough",
+      "item.ice_cream_mod_be:carrot_popsicle.name": "Ghiacciolo alla Carota",
+      "item.ice_cream_addon:waffle.name": "Waffle",
+      "item.ice_cream_mod_be:vanilla_ice_cream_cup.name": "Coppetta alla Vaniglia",
+      "item.ice_cream_mod_be:chocolate_ice_cream_ball.name": "Gelato al Cioccolato",
+      "item.ice_cream_mod_be:dough.name": "Impasto",
+      "item.ice_cream_addon:carrot_popsicle.name": "Carrot Popsicle",
+      "item.ice_cream_addon:strew_berry_popsicle.name": "Strew Berry Popsicle",
+      "item.ice_cream_mod_be:vanilla_ice_cream.name": "Cono alla Vaniglia",
+      "item.ice_cream_mod_be:vanilla_ice_cream_ball.name": "Gelato alla Vaniglia",
+      "item.ice_cream_mod_be:chocolate_ice_cream.name": "Cono al Cioccolato",
+      "item.ice_cream_mod_be:beetroot_ice_cream_ball.name": "Gelato alla Barbabietola",
+      "item.ice_cream_mod_be:beetroot_popsicle.name": "Ghiacciolo alla Barbabietola",
+      "item.ice_cream_addon:beetroot_popsicle.name": "Beetroot Popsicle",
+      "item.ice_cream_addon:carrot_ice_cream_ball.name": "Carrot Ice Cream Ball",
+      "item.ice_cream_addon:apple_ice_cream_cup.name": "Apple Ice Cream Cup",
+      "item.ice_cream_mod_be:melon_ice_cream_cup.name": "Coppetta all\u0027Anguria",
+      "item.ice_cream_addon:carrot_ice_cream_cup.name": "Carrot Ice Cream Cup",
+      "item.ice_cream_addon:cone.name": "Cone",
+      "item.ice_cream_mod_be:chocolate_ice_cream_cup.name": "Coppetta al Cioccolato",
+      "item.ice_cream_addon:vanilla_ice_cream_cup.name": "Vanilla Ice Cream Cup",
+      "item.ice_cream_addon:apple_ice_cream_ball.name": "Apple Ice Cream Ball",
+      "item.ice_cream_addon:beetroot_ice_cream.name": "Beetroot Ice Cream",
+      "item.ice_cream_mod_be:carrot_ice_cream_ball.name": "Gelato alla Carota",
+      "item.ice_cream_mod_be:apple_ice_cream_cup.name": "Coppetta alla Mela",
+      "item.ice_cream_addon:chocolate_popsicle.name": "Chocolate Popsicle",
+      "item.ice_cream_mod_be:carrot_ice_cream.name": "Cono alla Carota",
+      "item.ice_cream_addon:vanilla_popsicle.name": "Vanilla Popsicle",
+      "item.ice_cream_mod_be:apple_ice_cream_ball.name": "Gelato alla Mela",
+      "item.ice_cream_addon:vanilla_ice_cream_ball.name": "Vanilla Ice Cream Ball",
+      "item.ice_cream_mod_be:waffle.name": "Cialda",
+      "item.ice_cream_addon:vanilla_ice_cream.name": "Vanilla Ice Cream",
+      "item.ice_cream_addon:melon_ice_cream.name": "Melon Ice Cream"
+    },
+    "en_us": {
+      "item.ice_cream_addon:melon_ice_cream_cup.name": "Melon Ice Cream Cup",
+      "item.ice_cream_mod_be:melon_popsicle.name": "Melon Popsicle",
+      "item.ice_cream_mod_be:strew_berry_ice_cream_cup.name": "Strew Berry Ice Cream Cup",
+      "item.ice_cream_mod_be:melon_ice_cream.name": "Melon Ice Cream",
+      "item.ice_cream_mod_be:apple_ice_cream.name": "Apple Ice Cream",
+      "item.ice_cream_mod_be:strew_berry_ice_cream.name": "Strew Berry Ice Cream",
+      "item.ice_cream_mod_be:beetroot_ice_cream_cup.name": "Beetroot Ice Cream Cup",
+      "item.ice_cream_addon:melon_popsicle.name": "Melon Popsicle",
+      "item.ice_cream_addon:strew_berry_ice_cream_ball.name": "Strew Berry Ice Cream Ball",
+      "item.ice_cream_mod_be:beetroot_ice_cream.name": "Beetroot Ice Cream",
+      "item.ice_cream_mod_be:vanilla_popsicle.name": "Vanilla Popsicle",
+      "item.ice_cream_addon:apple_ice_cream.name": "Apple Ice Cream",
+      "item.ice_cream_addon:beetroot_ice_cream_ball.name": "Beetroot Ice Cream Ball",
+      "item.ice_cream_mod_be:carrot_ice_cream_cup.name": "Carrot Ice Cream Cup",
+      "item.ice_cream_mod_be:strew_berry_ice_cream_ball.name": "Strew Berry Ice Cream Ball",
+      "item.ice_cream_addon:carrot_ice_cream.name": "Carrot Ice Cream",
+      "item.ice_cream_addon:chocolate_i_ce_cream_cup.name": "Chocolate I Ce Cream Cup",
+      "item.ice_cream_addon:beetroot_ice_cream_cup.name": "Beetroot Ice Cream Cup",
+      "item.ice_cream_mod_be:cone.name": "Cone",
+      "item.ice_cream_mod_be:chocolate_popsicle.name": "Chocolate Popsicle",
+      "item.ice_cream_addon:strew_berry_ice_cream_cup.name": "Strew Berry Ice Cream Cup",
+      "item.ice_cream_mod_be:melon_ice_cream_ball.name": "Melon Ice Cream Ball",
+      "item.ice_cream_addon:chocolate_ice_cream.name": "Chocolate Ice Cream",
+      "item.ice_cream_addon:strew_berry_ice_cream.name": "Strew Berry Ice Cream",
+      "item.ice_cream_addon:melon_ice_cream_ball.name": "Melon Ice Cream Ball",
+      "item.ice_cream_mod_be:apple_popsicle.name": "Apple Popsicle",
+      "item.ice_cream_addon:apple_popsicle.name": "Apple Popsicle",
+      "item.ice_cream_addon:chocolate_ice_cream_ball.name": "Chocolate Ice Cream Ball",
+      "item.ice_cream_mod_be:strew_berry_popsicle.name": "Strew Berry Popsicle",
+      "item.ice_cream_addon:dough.name": "Dough",
+      "item.ice_cream_mod_be:carrot_popsicle.name": "Carrot Popsicle",
+      "item.ice_cream_addon:waffle.name": "Waffle",
+      "item.ice_cream_mod_be:vanilla_ice_cream_cup.name": "Vanilla Ice Cream Cup",
+      "item.ice_cream_mod_be:chocolate_ice_cream_ball.name": "Chocolate Ice Cream Ball",
+      "item.ice_cream_mod_be:dough.name": "Dough",
+      "item.ice_cream_addon:carrot_popsicle.name": "Carrot Popsicle",
+      "item.ice_cream_addon:strew_berry_popsicle.name": "Strew Berry Popsicle",
+      "item.ice_cream_mod_be:vanilla_ice_cream.name": "Vanilla Ice Cream",
+      "item.ice_cream_mod_be:vanilla_ice_cream_ball.name": "Vanilla Ice Cream Ball",
+      "item.ice_cream_mod_be:chocolate_ice_cream.name": "Chocolate Ice Cream",
+      "item.ice_cream_mod_be:beetroot_ice_cream_ball.name": "Beetroot Ice Cream Ball",
+      "item.ice_cream_mod_be:beetroot_popsicle.name": "Beetroot Popsicle",
+      "item.ice_cream_addon:beetroot_popsicle.name": "Beetroot Popsicle",
+      "item.ice_cream_addon:carrot_ice_cream_ball.name": "Carrot Ice Cream Ball",
+      "item.ice_cream_addon:apple_ice_cream_cup.name": "Apple Ice Cream Cup",
+      "item.ice_cream_mod_be:melon_ice_cream_cup.name": "Melon Ice Cream Cup",
+      "item.ice_cream_addon:carrot_ice_cream_cup.name": "Carrot Ice Cream Cup",
+      "item.ice_cream_addon:cone.name": "Cone",
+      "item.ice_cream_mod_be:chocolate_ice_cream_cup.name": "Chocolate Ice Cream Cup",
+      "item.ice_cream_addon:vanilla_ice_cream_cup.name": "Vanilla Ice Cream Cup",
+      "item.ice_cream_addon:apple_ice_cream_ball.name": "Apple Ice Cream Ball",
+      "item.ice_cream_addon:beetroot_ice_cream.name": "Beetroot Ice Cream",
+      "item.ice_cream_mod_be:carrot_ice_cream_ball.name": "Carrot Ice Cream Ball",
+      "item.ice_cream_mod_be:apple_ice_cream_cup.name": "Apple Ice Cream Cup",
+      "item.ice_cream_addon:chocolate_popsicle.name": "Chocolate Popsicle",
+      "item.ice_cream_mod_be:carrot_ice_cream.name": "Carrot Ice Cream",
+      "item.ice_cream_addon:vanilla_popsicle.name": "Vanilla Popsicle",
+      "item.ice_cream_mod_be:apple_ice_cream_ball.name": "Apple Ice Cream Ball",
+      "item.ice_cream_addon:vanilla_ice_cream_ball.name": "Vanilla Ice Cream Ball",
+      "item.ice_cream_mod_be:waffle.name": "Waffle",
+      "item.ice_cream_addon:vanilla_ice_cream.name": "Vanilla Ice Cream",
+      "item.ice_cream_addon:melon_ice_cream.name": "Melon Ice Cream"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ice_cream_addon",
+    "modName": "Ice Cream Addon",
+    "version": "1.0.0",
+    "author": "Francesco, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "addon-1.20.x",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.icecreammodbe",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

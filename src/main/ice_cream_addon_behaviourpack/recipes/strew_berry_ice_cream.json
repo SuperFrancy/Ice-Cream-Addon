@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ice_cream_addon:strew_berry_ice_cream"
+    },
+    "groups": [
+      "ice_cream_addon"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "a",
+      "b"
+    ],
+    "key": {
+      "a": {
+        "item": "ice_cream_addon:strew_berry_ice_cream_ball"
+      },
+      "b": {
+        "item": "ice_cream_addon:cone"
+      }
+    },
+    "result": {
+      "item": "ice_cream_addon:strew_berry_ice_cream",
+      "count": 1
+    }
+  }
+}
