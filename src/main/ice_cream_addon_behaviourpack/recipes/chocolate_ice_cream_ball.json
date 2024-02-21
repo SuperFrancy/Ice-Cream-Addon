@@ -18,12 +18,12 @@
         "item": "minecraft:cocoa_beans"
       },
       {
-        "item": "minecraft:powder_snow_bucket"
+        "item": "minecraft:snowball"
       }
     ],
     "result": {
       "item": "ice_cream_addon:chocolate_ice_cream_ball",
-      "count": 1
+      "count": 16
     }
   }
 }

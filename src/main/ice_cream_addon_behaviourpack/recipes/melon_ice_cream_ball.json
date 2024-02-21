@@ -18,12 +18,12 @@
         "item": "minecraft:melon_slice"
       },
       {
-        "item": "minecraft:powder_snow_bucket"
+        "item": "minecraft:snowball"
       }
     ],
     "result": {
       "item": "ice_cream_addon:melon_ice_cream_ball",
-      "count": 1
+      "count": 16
     }
   }
 }

@@ -22,12 +22,12 @@
         "item": "minecraft:apple"
       },
       "c": {
-        "item": "minecraft:powder_snow_bucket"
+        "item": "minecraft:snowball"
       }
     },
     "result": {
       "item": "ice_cream_addon:apple_ice_cream_ball",
-      "count": 1
+      "count": 16
     }
   }
 }

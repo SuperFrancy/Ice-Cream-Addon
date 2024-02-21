@@ -1,6 +1,6 @@
 {
   "format_version": "1.12",
-  "minecraft:recipe_shaped": {
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "ice_cream_addon:vanilla_ice_cream_ball"
     },
@@ -10,25 +10,21 @@
     "tags": [
       "crafting_table"
     ],
-    "pattern": [
-      "ab",
-      "c "
-    ],
-    "key": {
-      "a": {
-        "item": "minecraft:water_bucket"
+    "ingredients": [
+      {
+        "item": "minecraft:milk_bucket"
       },
-      "b": {
+      {
         "item": "minecraft:red_flower",
         "data": 8
       },
-      "c": {
-        "item": "minecraft:powder_snow_bucket"
+      {
+        "item": "minecraft:snowball"
       }
-    },
+    ],
     "result": {
       "item": "ice_cream_addon:vanilla_ice_cream_ball",
-      "count": 1
+      "count": 16
     }
   }
 }
